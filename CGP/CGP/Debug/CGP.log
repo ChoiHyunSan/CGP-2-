@@ -1,0 +1,16 @@
+﻿  Scene.cpp
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(50,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(62,40): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(135,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(146,40): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(147,49): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(178,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(185,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(162,7): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(195,66): warning C4316: 'ModelClass': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(198,41): warning C4316: 'Player': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(201,39): warning C4316: 'Bomb': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(204,40): warning C4316: 'Enemy': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(313,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\CGP\CGP\CGP\Scene.cpp(321,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CGP.vcxproj -> C:\Users\user\Desktop\CGP\CGP\Debug\CGP.exe

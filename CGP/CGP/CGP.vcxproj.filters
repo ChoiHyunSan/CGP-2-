@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{69e42ed4-548e-42f4-9ef0-e7509adc4bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{d56de3c0-7d19-4616-ab63-4dbdaece7e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Model">
+      <UniqueIdentifier>{7dbdac75-4415-491f-a95e-959f1c7784f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Effect">
+      <UniqueIdentifier>{5a9d9c7a-8ce2-4c25-9558-4d4e69e1e435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shader">
+      <UniqueIdentifier>{8b30a1bd-f85e-49c7-9686-81d9401e2297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Texture">
+      <UniqueIdentifier>{d17dc3ba-2715-48bd-9d9d-567924d554d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\D3D">
+      <UniqueIdentifier>{c8b1234f-1f8b-42c9-a932-2a586b0972d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{340978c7-37c5-43bf-b665-3fa56c82a5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\define">
+      <UniqueIdentifier>{54ccfa25-27bb-42a5-bb3d-a5d58746d193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Component">
+      <UniqueIdentifier>{cffcc3d6-e051-42cb-bd75-931d1df328bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\chair_d.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\player.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\seafloor.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\bomb.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\UI.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\font.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\fire01.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\noise01.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\alpha01.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\star.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="data\Title.dds">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\color.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\color.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\light.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\light.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\texture.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\texture.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\font.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\font.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\fire.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\fire.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\particle.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\particle.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\skydome.ps">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="data\skydome.vs">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h">
+      <Filter>소스 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="colorshaderclass.h">
+      <Filter>소스 파일\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectClass.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EventMgr.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraclass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dclass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="fontclass.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="fireshaderclass.h">
+      <Filter>소스 파일\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="fontshaderclass.h">
+      <Filter>소스 파일\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="lightshaderclass.h">
+      <Filter>소스 파일\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>소스 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>소스 파일\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>소스 파일\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>소스 파일\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>소스 파일\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage01_Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title_Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>소스 파일\define</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\define</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>소스 파일\define</Filter>
+    </ClInclude>
+    <ClInclude Include="textclass.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapclass.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>소스 파일\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="lightclass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>소스 파일\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsClass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuClass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="particleshaderclass.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="particlesystemclass.h">
+      <Filter>소스 파일\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerClass.h">
+      <Filter>소스 파일\define</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClear_Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver_Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundClass.h">
+      <Filter>소스 파일\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="skydomeclass.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="skydomeshaderclass.h">
+      <Filter>소스 파일\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="colorshaderclass.cpp">
+      <Filter>소스 파일\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectClass.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EventMgr.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraclass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="fontclass.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="fireshaderclass.cpp">
+      <Filter>소스 파일\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="fontshaderclass.cpp">
+      <Filter>소스 파일\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="lightshaderclass.cpp">
+      <Filter>소스 파일\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshaderclass.cpp">
+      <Filter>소스 파일\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>소스 파일\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>소스 파일\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>소스 파일\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage01_Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title_Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="textclass.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapclass.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>소스 파일\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="lightclass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsClass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuClass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerClass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="particleshaderclass.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="particlesystemclass.cpp">
+      <Filter>소스 파일\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver_Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClear_Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundClass.cpp">
+      <Filter>소스 파일\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="skydomeclass.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="skydomeshaderclass.cpp">
+      <Filter>소스 파일\Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\square.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="data\sound01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="data\Effects.fx">
+      <Filter>리소스 파일</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
